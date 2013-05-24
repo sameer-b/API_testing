@@ -1,0 +1,20 @@
+#displayResult {
+	overflow: scroll;
+   display: inline;
+   margin: 35px;
+}
+
+#separator {
+	width: 100%;
+	background-color: black;
+	height: 20px;
+	margin-bottom: 25px;
+}
+
+body {
+	background-color: #e3e3e3;
+}
+
+#url_Input {
+	width: 80%;
+}
