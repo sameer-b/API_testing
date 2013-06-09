@@ -66,13 +66,18 @@ function callApi()
 	 if (xmlhttp.readyState === 4 )
 	 	//get the response and inject it into the html
     	var response=xmlhttp.responseText;
+      var responseHeader=xmlhttp.getAllResponseHeaders();
   		var display=document.getElementById('displayResult');
+      var header=document.getElementById('displayHeader');
   		display.innerHTML= response;
+      header.innerHTML= responseHeader;
       showStatus(xmlhttp.status);
+     
 } 
    //alas! open and send!
 	xmlhttp.open(method,url,true);
 	xmlhttp.send();
+
 }
 
 
