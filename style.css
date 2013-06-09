@@ -21,3 +21,8 @@ body {
 #url_Input {
 	width: 80%;
 }
+
+#status {
+	background-color: white;
+	margin-bottom: 20px;
+}
